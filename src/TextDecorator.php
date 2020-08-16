@@ -31,7 +31,7 @@ class TextDecorator extends AbDecorator
         $this->src_img = $this->component->draw(); //获取图像资源
 
         if(empty($this->font)){
-            $this->font = './simhei.ttf'; //使用默认的字体文件
+            $this->font = __DIR__.'/simhei.ttf'; //使用默认的字体文件
         }
 
         $color = imagecolorallocate($this->src_img, $this->text_color['r'], $this->text_color['g'], $this->text_color['b']);
