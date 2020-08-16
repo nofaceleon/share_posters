@@ -52,5 +52,8 @@ try {
 
 #### 使用方法
 
+> composer require songjiansheng/share_posters
+
+
 1. 使用装饰器模式实现对图片加上文字, 二维码, 水印等功能
 2. 位置最大不会超过底图
