@@ -1,0 +1,23 @@
+{
+    "name": "songjiansheng/share_posters",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "endroid/qr-code": "^3.9",
+        "php": "^7.2",
+        "ext-gd": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "宋先森",
+            "email": "229883447@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sjs\\shareposters\\": "src/"
+        }
+    }
+
+}
